@@ -10,10 +10,10 @@
     "prepare": "tsc",
     "pretest": "tsc --build test/tsconfig.json",
     "test": "karma start --coverage",
-    "lint:eslint": "eslint --ext .js,.html,.ts .",
-    "format:eslint": "eslint --ext .js,.html,.ts . --fix",
-    "lint:prettier": "prettier \"**/*.js\" --list-different || (echo '↑↑ these files are not prettier formatted ↑↑' && exit 1)",
-    "format:prettier": "prettier \"**/*.js\" --write",
+    "lint:eslint": "eslint --ext .js,.html,.ts . --quiet",
+    "format:eslint": "eslint --ext .js,.html,.ts . --quiet --fix",
+    "lint:prettier": "prettier \"**/*.{js,ts}\" --list-different || (echo '↑↑ these files are not prettier formatted ↑↑' && exit 1)",
+    "format:prettier": "prettier \"**/*.{js,ts}\" --write",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "format": "npm run format:eslint && npm run format:prettier",
     "test:watch": "karma start --auto-watch=true --single-run=false",
@@ -48,7 +48,7 @@
     "lit-element": "^2.2.0"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,ts}": [
       "eslint --fix",
       "prettier --write",
       "git add"

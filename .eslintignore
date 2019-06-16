@@ -3,3 +3,6 @@ _site/
 dist/
 *.d.ts
 lib/**/*.js
+*.js
+!*.config.js
+!*.conf.js
