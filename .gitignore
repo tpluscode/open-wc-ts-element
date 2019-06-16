@@ -4,5 +4,5 @@ node_modules/
 *.d.ts
 !*.config.js
 !*.conf.js
-!test/*.js
 /lib/
+/coverage/

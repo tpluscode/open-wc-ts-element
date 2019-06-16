@@ -43,6 +43,10 @@
     "webpack-merge": "^4.1.5",
     "remap-istanbul": "^0.13.0"
   },
+  "dependencies": {
+    "lit-html": "^1.1.0",
+    "lit-element": "^2.2.0"
+  },
   "lint-staged": {
     "*.js": [
       "eslint --fix",
