@@ -1,0 +1,5 @@
+coverage/
+_site/
+dist/
+*.d.ts
+lib/**/*.js

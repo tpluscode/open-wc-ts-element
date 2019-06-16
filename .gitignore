@@ -1,0 +1,8 @@
+node_modules/
+*.js
+*.js.map
+*.d.ts
+!*.config.js
+!*.conf.js
+!test/*.js
+/lib/
