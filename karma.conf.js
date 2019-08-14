@@ -1,6 +1,5 @@
-/* eslint-disable import/no-extraneous-dependencies */
-const createDefaultConfig = require('@open-wc/testing-karma/default-config')
-const merge = require('webpack-merge')
+const { createDefaultConfig } = require('@open-wc/testing-karma')
+const merge = require('deepmerge')
 
 module.exports = config => {
   config.set(
@@ -11,12 +10,13 @@ module.exports = config => {
         //
         // npm run test -- --grep test/foo/bar.test.js
         // npm run test -- --grep test/bar/*
-        { pattern: config.grep ? config.grep : 'test/**/*.test.js', type: 'module' },
+        { pattern: config.grep ? config.grep : 'test/**/*.test.ts', type: 'module' },
       ],
 
-      // you can overwrite/extend the config further
-      coverageIstanbulReporter: {
-        reports: ['json'],
+      esm: {
+        babel: true,
+        nodeResolve: true,
+        fileExtensions: ['.ts'],
       },
     }),
   )

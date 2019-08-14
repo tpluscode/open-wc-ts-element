@@ -22,6 +22,7 @@
   "rules": {
     "indent": "off",
     "import/no-unresolved": "warn",
+    "import/extensions": "off",
     "space-before-function-paren": [
       "error",
       {
@@ -32,13 +33,16 @@
       "error",
       "always-multiline"
     ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "peerDependencies": true
-      }
-    ],
     "@typescript-eslint/no-var-requires": "warn",
     "@typescript-eslint/indent": ["error", 2]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  ]
 }

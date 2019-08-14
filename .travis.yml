@@ -6,7 +6,6 @@ before_install:
   - npm install -g codecov
 script:
   - npm run test:bs
-  - npm run remap-istanbul
 after_success:
   - codecov
 after_failure:
