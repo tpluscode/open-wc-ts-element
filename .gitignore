@@ -6,3 +6,4 @@ node_modules/
 !*.conf.js
 /lib/
 /coverage/
+*.log
