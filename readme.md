@@ -13,6 +13,9 @@ by running `npm init @open-wc`
     * Uses `@typescript-eslint` parser and config
     * Default Typescript indentation changed to 2 spaces
     * Ignore warnings from eslint (`--quiet`)
+    * `tsc --noEmit` running as git hook
 * Testing
-    * Runs on transpiled because karma-typescript config is notoriously hard to get right
-    * Coverage updated with `remap-istanbul`
+    * Browserstack limited to a single concurrent job
+* Typescript
+    * Strict
+    * Source in `src` directory to reduce clutter
