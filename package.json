@@ -33,7 +33,7 @@
     "@open-wc/prettier-config": "^0.1.10",
     "@open-wc/testing": "^2.3.2",
     "@open-wc/testing-karma": "^3.1.15",
-    "@open-wc/testing-karma-bs": "^1.1.40",
+    "@open-wc/testing-karma-bs": "^1.1.53",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "cz-conventional-changelog": "^3.0.2",
@@ -42,12 +42,12 @@
     "lint-staged": "^9.2.1",
     "standard": "^14.0.2",
     "standard-version": "^6.0.1",
-    "typescript": "^3.5.2",
+    "typescript": "^3.5.3",
     "webpack-merge": "^4.1.5"
   },
   "dependencies": {
     "lit-html": "^1.1.2",
-    "lit-element": "^2.2.0"
+    "lit-element": "^2.2.1"
   },
   "husky": {
     "hooks": {
