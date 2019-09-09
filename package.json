@@ -34,7 +34,7 @@
     "@open-wc/testing": "^2.3.3",
     "@open-wc/testing-karma": "^3.1.31",
     "@open-wc/testing-karma-bs": "^1.1.56",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.0.0",
     "cz-conventional-changelog": "^3.0.2",
     "eslint-plugin-lit": "^1.2.0",
