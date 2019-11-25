@@ -1,5 +1,5 @@
 {
-  "name": "open-wc-ts-template",
+  "name": "open-wc-ts-element",
   "version": "0.0.0",
   "description": "Template which extends @open-wc with TypeScript",
   "main": "index.js",
