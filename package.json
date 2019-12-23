@@ -29,7 +29,7 @@
     "@babel/preset-typescript": "^7.7.4",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "@open-wc/eslint-config": "^2.0.1",
+    "@open-wc/eslint-config": "^2.0.2",
     "@open-wc/prettier-config": "^0.1.13",
     "@open-wc/testing": "^2.4.2",
     "@open-wc/testing-karma": "^3.2.17",
