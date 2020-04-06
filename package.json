@@ -35,7 +35,7 @@
     "@open-wc/testing-karma": "^3.3.11",
     "@open-wc/testing-karma-bs": "^1.3.55",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.25.0",
+    "@typescript-eslint/parser": "^2.26.0",
     "eslint-plugin-lit": "^1.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
