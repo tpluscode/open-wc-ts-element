@@ -41,7 +41,7 @@
     "lint-staged": "^10.2.2",
     "standard": "^14.3.3",
     "standard-version": "^8.0.0",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.2",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
