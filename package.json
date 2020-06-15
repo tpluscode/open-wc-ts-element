@@ -38,7 +38,7 @@
     "@typescript-eslint/parser": "^2.33.0",
     "eslint-plugin-lit": "^1.2.0",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.9",
+    "lint-staged": "^10.2.10",
     "standard": "^14.3.4",
     "standard-version": "^8.0.0",
     "typescript": "^3.9.5",
