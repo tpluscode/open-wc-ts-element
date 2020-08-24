@@ -42,7 +42,7 @@
     "standard": "^14.3.4",
     "standard-version": "^9.0.0",
     "typescript": "^3.9.7",
-    "webpack-merge": "^5.1.1"
+    "webpack-merge": "^5.1.2"
   },
   "dependencies": {
     "lit-html": "^1.2.1",
