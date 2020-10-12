@@ -33,7 +33,7 @@
     "@open-wc/prettier-config": "^1.1.0",
     "@open-wc/testing": "^2.5.29",
     "@open-wc/testing-karma": "^4.0.9",
-    "@open-wc/testing-karma-bs": "^1.3.93",
+    "@open-wc/testing-karma-bs": "^1.3.94",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
     "eslint-plugin-lit": "^1.2.2",
